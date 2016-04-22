@@ -9,6 +9,31 @@
   <artifactId>maven-ecr-plugin</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
+  <name>Main Street Hub Maven ECR Plugin</name>
+  <description>Maven plugin to manage obtaining ECR credentials.</description>
+  <url>https://github.com/mainstreethub/maven-ecr-plugin</url>
+
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Alex Wenckus</name>
+      <email>alex.wenckus@mainstreethub.com</email>
+      <organization>MainStreetHub</organization>
+      <organizationUrl>http://www.mainstreethub.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <url>https://github.com/mainstreethub/maven-ecr-plugin</url>
+    <connection>scm:git:git@github.com:mainstreethub/maven-ecr-plugin</connection>
+    <developerConnection>scm:git:git@github.com:mainstreethub/maven-ecr-plugin</developerConnection>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
