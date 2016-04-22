@@ -6,12 +6,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mainstreethub</groupId>
-  <artifactId>maven-ecr-plugin</artifactId>
+  <artifactId>ecr-maven-plugin</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
   <name>Main Street Hub Maven ECR Plugin</name>
   <description>Maven plugin to manage obtaining ECR credentials.</description>
-  <url>https://github.com/mainstreethub/maven-ecr-plugin</url>
+  <url>https://github.com/mainstreethub/ecr-maven-plugin</url>
 
   <licenses>
     <license>
@@ -30,9 +30,9 @@
   </developers>
 
   <scm>
-    <url>https://github.com/mainstreethub/maven-ecr-plugin</url>
-    <connection>scm:git:git@github.com:mainstreethub/maven-ecr-plugin</connection>
-    <developerConnection>scm:git:git@github.com:mainstreethub/maven-ecr-plugin</developerConnection>
+    <url>https://github.com/mainstreethub/ecr-maven-plugin</url>
+    <connection>scm:git:git@github.com:mainstreethub/ecr-maven-plugin</connection>
+    <developerConnection>scm:git:git@github.com:mainstreethub/ecr-maven-plugin</developerConnection>
   </scm>
 
   <properties>
