@@ -18,7 +18,7 @@ import org.apache.maven.project.MavenProject;
 
 @Mojo(name = "login")
 public class LoginMojo extends AbstractMojo {
-  private static final Splitter TOKEN_SPLITTER = Splitter.on(":").limit(3).trimResults();
+  private static final Splitter TOKEN_SPLITTER = Splitter.on(":").limit(2).trimResults();
 
   @Parameter(defaultValue = "${project}", readonly = true)
   private MavenProject project;
